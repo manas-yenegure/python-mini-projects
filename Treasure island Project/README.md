@@ -1,4 +1,4 @@
-#  Treasure Island Adventure Game
+#  Treasure Island Game
 
 A simple text-based adventure game built with **Python**. In this game, the player must make the correct choices to reach the hidden treasure. One wrong decision ends the game!
 
