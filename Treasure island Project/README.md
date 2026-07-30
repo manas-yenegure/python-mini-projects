@@ -4,7 +4,7 @@ A simple text-based adventure game built with **Python**. In this game, the play
 
 This project was created as part of my Python learning journey to practice **conditional statements (`if`, `elif`, `else`)**, **user input**, and **basic program flow**.
 
-## Gameplay
+##Gameplay
 
 The player is presented with a series of choices:
 
