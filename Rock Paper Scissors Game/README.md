@@ -32,7 +32,7 @@ Rock-Paper-Scissors/
 1. Clone this repository.
 
 ```bash
-git clone https://github.com/your-username/Rock-Paper-Scissors.git
+git clone https://github.com/manas-yenegure/Rock-Paper-Scissors.git 
 ```
 
 2. Navigate to the project folder.
@@ -77,7 +77,7 @@ You Lose!
 - Add emojis and improved ASCII art
 - Difficulty levels
 
-## 📖 Learning Purpose
+## Learning Purpose
 
 This project was built for practicing Python fundamentals and strengthening problem-solving skills while learning game logic.
 
