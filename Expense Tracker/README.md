@@ -66,7 +66,7 @@ python main.py
 ## Sample Output
 
 ```text
-Enter Today's Budget (₹): 1000
+Enter Today's Budget: 1000
 
 ====== Expense Tracker ======
 
@@ -81,7 +81,7 @@ Enter Date (DD-MM-YYYY): 02-08-2026
 Enter Category: Food
 Enter Amount : 250
 
-✅ Expense Added Successfully!
+Expense Added Successfully!
 ```
 
 ## End Day Summary
@@ -94,7 +94,7 @@ Total Expense   : ₹250
 Remaining Money : ₹750
 Today's Savings : ₹750
 
-🎉 Great! You stayed within your budget.
+Great! You stayed within your budget.
 ```
 
 ## Concepts Practiced
@@ -122,5 +122,4 @@ Today's Savings : ₹750
 ## Author
 
 **Manas Yenegure**
-
-This project is part of my Python learning journey and GitHub portfolio. Feedback and suggestions are always welcome!
+Feedback and suggestions are always welcome!
