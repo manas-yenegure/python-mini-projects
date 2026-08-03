@@ -1,4 +1,4 @@
-# Silent Auction
+# Silent Auction System
 
 A simple Python console application that simulates a **silent auction**. Multiple users can enter their names and bid amounts, and the program automatically determines the highest bidder and announces the winner.
 
