@@ -95,7 +95,7 @@ This project demonstrates how dictionaries can store functions as values, making
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/Python-Calculator.git
+git clone https://github.com/manas-yenegure/Python-Calculator.git
 ```
 
 2. Navigate to the project folder:
