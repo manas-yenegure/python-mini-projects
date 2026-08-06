@@ -1,4 +1,4 @@
-# 💡 Developer Hints
+# Developer Hints
 
 This file contains useful tips for anyone modifying or learning from this project.
 
@@ -19,15 +19,4 @@ answer = randint(1, 100)
 print(f"psst, the correct answer is {answer}")
 ```
 
-> ⚠️ This line is intended **only for debugging**. Remove or comment it out before sharing the game with players.
-
----
-
-## Future Improvements
-
-- Add input validation
-- Add a replay option
-- Store high scores
-- Add more difficulty levels
-- Build a GUI version using Tkinter
-- Add colored terminal output
+> This line is intended **only for debugging**. Remove or comment it out before sharing the game with players.
