@@ -173,6 +173,4 @@ Some possible improvements include:
 * Add difficulty modes
 
 ## Author
-
 **Manas Yenegure**
-
