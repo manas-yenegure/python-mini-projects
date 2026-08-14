@@ -1,6 +1,6 @@
 # Arcade Game
 
-A simple **Pong Game** built with Python using the built-in **Turtle Graphics** library.
+A simple **Arcade Game** built with Python using the built-in **Turtle Graphics** library.
 
 The game features two paddles, a bouncing ball, collision detection, and a scoreboard. Two players can control their paddles and compete to score points.
 
