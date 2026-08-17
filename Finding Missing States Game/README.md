@@ -1,4 +1,4 @@
-# U.S. States Game
+# Finding Missing States Game
 
 A simple **Python Turtle-based quiz game** where the player tries to identify all **50 U.S. states** on a blank map of the United States.
 
