@@ -16,13 +16,11 @@ A simple Python project that generates a fun band name by combining the name of 
 
 1. Open the project folder.
 2. Run:
-
 ```bash
 python main.py
 ```
 
 ## Example
-
 ```
 Welcome to the Band Name Generator!
 
