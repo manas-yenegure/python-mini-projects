@@ -123,29 +123,6 @@ The actual values should **never be committed to GitHub**.
 
 ---
 
-## `.gitignore`
-
-Create a `.gitignore` file in the project folder:
-
-```gitignore
-# Environment variables
-.env
-
-# Python
-__pycache__/
-*.py[cod]
-
-# IDE
-.vscode/
-.idea/
-
-# Virtual environment
-venv/
-.venv/
-```
-
-If you use a `.env` file to store credentials, make sure `.env` is included in `.gitignore`.
-
 ## Installation
 
 ### 1. Clone the repository
