@@ -1,24 +1,20 @@
-# 🎂 Birthday Wisher – Automated Birthday Email Sender
+# Birthday Wisher – Automated Birthday Email Sender
 
 A simple Python automation project that automatically sends a personalized **Happy Birthday email** to people whose birthday matches today's date.
 
 The program reads birthday information from a CSV file, selects a random birthday message template, personalizes it with the recipient's name, and sends the email using SMTP.
 
----
+## Features
 
-## ✨ Features
+* Automatically checks today's date
+* Finds people whose birthday is today
+* Reads birthday information from a CSV file
+* Sends personalized birthday emails automatically
+* Randomly selects one of multiple birthday letter templates
+* Replaces `[NAME]` with the recipient's actual name
+* Uses email credentials for SMTP authentication
 
-* 📅 Automatically checks today's date
-* 🎂 Finds people whose birthday is today
-* 📄 Reads birthday information from a CSV file
-* ✉️ Sends personalized birthday emails automatically
-* 🎲 Randomly selects one of multiple birthday letter templates
-* 👤 Replaces `[NAME]` with the recipient's actual name
-* 🔐 Uses email credentials for SMTP authentication
-
----
-
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Python**
 * `datetime` – for getting today's date
@@ -26,25 +22,21 @@ The program reads birthday information from a CSV file, selects a random birthda
 * `random` – for selecting a random birthday template
 * `smtplib` – for sending emails through SMTP
 
----
-
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Birthday-Wisher/
 │
 ├── main.py
 ├── birthdays.csv
-│
+│   Readme.md
 └── letter_templates/
     ├── letter_1.txt
     ├── letter_2.txt
     └── letter_3.txt
 ```
 
----
-
-## 📋 CSV File Format
+## CSV File Format
 
 The `birthdays.csv` file should contain the following columns:
 
@@ -66,9 +58,7 @@ Sarah,sarah@example.com,2001,12,15
 
 The program uses the `month` and `day` values to determine whether today is someone's birthday.
 
----
-
-## ✉️ Letter Templates
+## Letter Templates
 
 Create a folder named:
 
@@ -104,7 +94,7 @@ with the recipient's name.
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 ### 1. Get today's date
 
@@ -133,7 +123,6 @@ birthdays_dict = {
     for (index, data_row) in data.iterrows()
 }
 ```
-
 The program then checks whether today's date exists in the dictionary.
 
 ### 4. Select a birthday template
@@ -164,9 +153,7 @@ connection.sendmail(
 )
 ```
 
----
-
-## 🔐 Email Configuration
+##  Email Configuration
 
 Before running the program, update these values in `main.py`:
 
@@ -187,7 +174,7 @@ The SMTP address must match your email provider. The original project instructio
 
 ---
 
-## 🚨 Important Security Note
+## Important Security Note
 
 **Never upload your real email password to GitHub.**
 
@@ -212,9 +199,7 @@ Then store your credentials locally in environment variables rather than directl
 
 You should also add sensitive configuration files to `.gitignore` when necessary.
 
----
-
-## ▶️ How to Run
+## How to Run
 
 ### Step 1 – Clone the repository
 
@@ -268,9 +253,7 @@ python main.py
 
 If today's date matches a birthday in the CSV file, the program will send a personalized birthday email.
 
----
-
-## 🧪 Example
+## Example
 
 Suppose `birthdays.csv` contains:
 
@@ -295,7 +278,7 @@ The email is then sent automatically to the person's email address.
 
 ---
 
-## 📚 What I Learned
+## What I Learned
 
 This project helped practice:
 
@@ -314,28 +297,28 @@ This project helped practice:
 
 ---
 
-## 🚀 Possible Future Improvements
+## Possible Future Improvements
 
 Some improvements that could make this project more production-ready:
 
-* 🔐 Use environment variables for credentials
-* 📝 Add better email formatting using HTML
-* 📊 Create an email delivery log
-* ⚠️ Add error handling for failed emails
-* 🎉 Support multiple birthdays on the same day
-* 📅 Automatically schedule the program to run every day
-* 📧 Support different email providers
-* 🖥️ Create a simple GUI for managing birthdays
-* 🗄️ Replace CSV storage with a database
-* 📱 Add notifications when an email is successfully sent
+* Use environment variables for credentials
+* Add better email formatting using HTML
+* Create an email delivery log
+* Add error handling for failed emails
+* Support multiple birthdays on the same day
+* Automatically schedule the program to run every day
+* Support different email providers
+* Create a simple GUI for managing birthdays
+* Replace CSV storage with a database
+* Add notifications when an email is successfully sent
 
-## 🎯 Project Purpose
+## Project Purpose
 
 The main purpose of this project is to demonstrate how Python can be used for **real-world automation**.
 
 Instead of manually checking birthdays and writing individual emails, the program performs the entire process automatically.
 
-## 👨‍💻 Author
+## Author
 
 **Manas**
 
