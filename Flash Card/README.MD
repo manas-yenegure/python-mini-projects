@@ -6,14 +6,14 @@ The app displays a French word on a flashcard and automatically flips the card a
 
 ## Features
 
-* 🇫🇷 Displays French vocabulary words
-* 🇬🇧 Reveals the English translation automatically
-* ⏱️ Automatically flips the card after 3 seconds
-* 🔀 Randomly selects flashcards
-* ✅ Removes words that you already know
-* ❌ Allows you to skip words you don't know
-* 💾 Saves remaining words for future learning sessions
-* 🖥️ Simple graphical interface using Tkinter
+* Displays French vocabulary words
+* Reveals the English translation automatically
+* Automatically flips the card after 3 seconds
+* Randomly selects flashcards
+* Removes words that you already know
+* Allows you to skip words you don't know
+* Saves remaining words for future learning sessions
+* Simple graphical interface using Tkinter
 
 ## Technologies Used
 
