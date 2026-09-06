@@ -1,0 +1,10 @@
+# External package
+pyperclip
+
+# Standard library modules — already included with Python
+# json
+# re
+# pathlib
+# random
+# tkinter
+# tkinter.ttk
